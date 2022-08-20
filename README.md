@@ -1,5 +1,7 @@
 # Learning-Node.js
-이런 저런 Node.js 튜토리얼을 정리할 것입니다. 
+이런 저런 Node.js 튜토리얼을 정리할 것입니다.  
+아래 노션링크에서 배운 것을 정리하고 있습니다. 참고로 현재 노션링크는 의도적으로 비공개처리했습니다. 저 혼자 사용하고 있습니다. 
+https://www.notion.so/Node-js-db3d4e2c19234c62a0df6739218beed7
 
 # 생활코딩 Node.js
 생활코딩 Node.js 튜토리얼을 정리했습니다.  
