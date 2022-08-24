@@ -17,3 +17,5 @@ Node.js 튜토리얼을 따라면서 버그가 발생했다. 하지만 버그를
 https://www.youtube.com/playlist?list=PLfLgtT94nNq1qmsvIii_CAxFlD7tvB5NE
 애플코딩 강의 주소  
 https://codingapple.com/course/node-express-mongodb-server/
+
+무료까지 모두 수강했습니다. 무료 범위 내에서 재미있게 잘 가르치십니다.
