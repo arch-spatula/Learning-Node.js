@@ -1,3 +1,7 @@
+# 2017 Do it! Node.js 프로그래밍(개정판)
+
+[2017 Do it! Node.js 프로그래밍(개정판)](https://www.youtube.com/playlist?list=PLG7te9eYUi7tHH-hJ2yzBJ9h6dwBu1FUy)
+
 # Next.js
 
 [NestJS로 배우는 백엔드 프로그래밍](https://wikidocs.net/book/7059)
@@ -284,13 +288,54 @@ app.listen(3000);
 
 `fs`, `http` 2개의 모듈을 의존합니다. 그리고 `app`객체를 만들기 위해 `http`의 `createServer` 메서드를 사용해야 합니다. `response`의 통신 상태도 정의해줘야 합니다. 그리고 `end`메서드도 `fs`모듈을 활용해야 합니다.
 
+# API
+
+API는 4가지가 중요합니다.
+
+- Endpoint
+- Paths
+- Parameters
+- Authentication
+
+API는 엔드포인트는
+
+모든 API는 엔드포인트가 있습니다. URL
+
+https://kanye.rest/
+
+이런 이상한 API도 있습니다. 돌려주는 데이터가 엔드포인트라고 생각하면 간단합니다.
+
+https://api.kanye.rest 더 정확히는 이게 엔드포인트입니다.
+
+API Paths랑 Parameters은 특정 데이터를 요청하는 법입니다.
+
+https://sv443.net/jokeapi/v2/ 이 사이트에서 예시를 들 수 있습니다.
+
+https://sv443.net/jokeapi/v2/joke/Programming
+
+엔드포인트는 url처럼 생겼습니다. 브라우저에 그대로 넣으면 에러를 돌려줄 때가 많습니다.
+
+https://sv443.net/jokeapi/v2/joke/ + /Programming
+
+여기 앞의 항이 엔드포인트입니다. 뒤가 Path에 해당합니다. Path는 데이터를 여과하는 기능이 됩니다.
+
+https://v2.jokeapi.dev/joke/Programming?contains=debug
+
+여기서 파라미터는 contains=debug이 해당합니다. contains은 키입니다. debug은 value입니다.
+
+첫 쿼리는 `?`으로 시작합니다. 다음 쿼리는 `&`이 사이에 연속으로 붙습니다.
+
+https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,sexist&contains=debug
+
+이게 예시입니다.
+
 # 유데미 강좌
 
 # 애플코딩 Node.js
 
-유튜브 재생목록  
+유튜브 재생목록
 https://www.youtube.com/playlist?list=PLfLgtT94nNq1qmsvIii_CAxFlD7tvB5NE
-애플코딩 강의 주소  
+애플코딩 강의 주소
 https://codingapple.com/course/node-express-mongodb-server/
 
 무료까지 모두 수강했습니다. 무료 범위 내에서 재미있게 잘 가르치십니다.
